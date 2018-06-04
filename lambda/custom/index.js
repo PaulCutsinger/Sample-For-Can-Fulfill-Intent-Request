@@ -271,6 +271,7 @@ const voiceExpertBios = {
   "max amordeluso":"leads the E.U. evangelism.",
   "andrea muttoni":"leads U.K evangelism.",
   "rob pulciani":"leads the Alexa Skills Kit team.",
+  "rob mccauley":"leads our in person events.",
   "eric king":"leads developer and consumer programs for the Alexa Skills Kit.",
   "kenny mathers":"leads in person and online training.",
   "franklin lobb":"is in charge of our training content.",
