@@ -1,0 +1,205 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "voice experts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "aboutIntent",
+          "slots": [
+            {
+              "name": "voiceExpert",
+              "type": "VOICE_EXPERTS"
+            }
+          ],
+          "samples": [
+            "tell me about {voiceExpert}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Anna Van Brookhoven",
+                "synonyms": [
+                  "Anna"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Jedidiah Esposito",
+                "synonyms": [
+                  "Jed Esposito",
+                  "Jed"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Amit Jotwani",
+                "synonyms": [
+                  "Amit"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Azi Frajar",
+                "synonyms": [
+                  "Azi"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sohan Maheshwar"
+              }
+            },
+            {
+              "name": {
+                "value": "Ankit Kala",
+                "synonyms": [
+                  "Ankit"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Max Amordeluso"
+              }
+            },
+            {
+              "name": {
+                "value": "Andrea Muttoni"
+              }
+            },
+            {
+              "name": {
+                "value": "Rob Pulciani"
+              }
+            },
+            {
+              "name": {
+                "value": "Eric King"
+              }
+            },
+            {
+              "name": {
+                "value": "Kenny Mathers"
+              }
+            },
+            {
+              "name": {
+                "value": "Franklin Lobb",
+                "synonyms": [
+                  "Lobb",
+                  "Franklin"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Akersh Srivastava",
+                "synonyms": [
+                  "Akersh",
+                  "the only Akersh"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Glenn Cameron"
+              }
+            },
+            {
+              "name": {
+                "value": "Mike Maas",
+                "synonyms": [
+                  "mike mass",
+                  "mass",
+                  "Maas",
+                  "Mike"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cassidy Williams",
+                "synonyms": [
+                  "cassy doo",
+                  "cassidoo",
+                  "williams",
+                  "Cassidy"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cami williams",
+                "synonyms": [
+                  "c willy c s",
+                  "cwillcs",
+                  "williams",
+                  "cami"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Justin Jeffress",
+                "synonyms": [
+                  "sleepy developer",
+                  "the sleepy developer",
+                  "jeffress",
+                  "justin"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Jeff Blankenburg",
+                "synonyms": [
+                  "Blankenburg",
+                  "Jeff"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Memo Doring",
+                "synonyms": [
+                  "Doring",
+                  "Memo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Paul Cutsinger",
+                "synonyms": [
+                  "Cutsinger",
+                  "Paul"
+                ]
+              }
+            }
+          ],
+          "name": "VOICE_EXPERTS"
+        }
+      ]
+    }
+  }
+}
