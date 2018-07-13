@@ -10,7 +10,6 @@ const CFIRAboutIntentHandler ={
      handlerInput.requestEnvelope.request.intent.name === 'aboutIntent';
   },
   handle(handlerInput){
-    const intentName = handlerInput.requestEnvelope.request.intent.name;
     const filledSlots = handlerInput.requestEnvelope.request.intent.slots;
     const slotValues = getSlotValues(filledSlots);
     console.log ("in CFIR AboutIntentHandler " + JSON.stringify(slotValues));
@@ -44,11 +43,6 @@ const CFIRAboutIntentHandler ={
         })
         .getResponse();
     }
-
-    return handlerInput.responseBuilder
-      .speak(speechoutput)
-      .reprompt(speechoutput)
-      .getResponse();
   }
 };
 
